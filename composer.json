@@ -15,5 +15,12 @@
             "email": "jkobie@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Jkobie\\Nacho\\": "src",
+            "Jkobie\\MailChimpPlus\\": "src",
+            "Acme\\": "src"
+        }
+    },
     "minimum-stability": "dev"
 }
