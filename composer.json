@@ -17,8 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Jkobie\\Nacho\\": "src",
-            "Jkobie\\MailChimpPlus\\": "src",
+            "Nacho\\": "src",
             "Acme\\": "src"
         }
     },

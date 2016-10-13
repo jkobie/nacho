@@ -6,6 +6,9 @@
  * Time: 11:19 AM
  */
 require __DIR__ . '/vendor/autoload.php';
-use Jkobie\Nacho\Nacho;
+use Acme\Nacho;
+use Acme\Page;
 
+new Page();
+new Nacho();
 ?>
