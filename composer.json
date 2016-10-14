@@ -18,7 +18,8 @@
     "autoload": {
         "psr-4": {
             "Nacho\\": "src",
-            "Acme\\": "src"
+            "Acme\\": "src",
+            "Jkobie\\": "src"
         }
     },
     "minimum-stability": "dev"

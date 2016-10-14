@@ -8,7 +8,11 @@
 require __DIR__ . '/vendor/autoload.php';
 use Acme\Nacho;
 use Acme\Page;
+use Jkobie\MailChump;
 
 new Page();
 new Nacho();
+$mc = new MailChump();
+
+$mc->hello("World");
 ?>
